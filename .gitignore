@@ -1,0 +1,61 @@
+# 환경 변수
+.env
+.env.local
+.env.*.local
+
+# 데이터 파일 (민감한 정보 포함)
+data/settings.json
+data/history.json
+data/*.backup
+data/*_export_*.json
+
+# 예시 파일은 포함 (공개 가능)
+# data/settings.json.example
+# data/journals.json.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 빌드 결과
+dist/
+build/
+*.exe
+*.app
+*.spec.bak
+*.egg
+*.whl
+
+# 테스트 파일
+test_*.py
+*_test.py
+test_output.txt
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 임시 파일
+*.tmp
+*.temp
+*.bak
+

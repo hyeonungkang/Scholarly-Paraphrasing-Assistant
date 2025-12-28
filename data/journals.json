@@ -1,0 +1,42 @@
+[
+  {
+    "name": "S&A:A",
+    "full_name": "Sensors and Actuators A: Physical",
+    "aims_scope": "An international journal devoted to research and development of physical transducers\r\n\r\nSensors and Actuators A: Physical brings together multidisciplinary interests in one journal entirely devoted to disseminating information on all aspects of research and development of solid-state devices for transducing physical signals. Sensors and Actuators A: Physical regularly publishes original papers, letters to the Editors and from time to time invited review articles within the following device areas:\r\n\r\n• Fundamentals and Physics, such as: classification of effects, physical effects, measurement theory, modelling of sensors, measurement standards, measurement errors, units and constants, time and frequency measurement. Modeling papers should bring new modeling techniques to the field and be supported by experimental results.\r\n\r\n• Materials and their Processing, such as: piezoelectric materials, polymers, metal oxides, III-V and II-VI semiconductors, thick and thin films, optical glass fibres, amorphous, polycrystalline and monocrystalline silicon.\r\n\r\n• Optoelectronic sensors, such as: photovoltaic diodes, photoconductors, photodiodes, phototransistors, positron-sensitive photodetectors, optoisolators, photodiode arrays, charge-coupled devices, light-emitting diodes, injection lasers and liquid-crystal displays.\r\n\r\n• Mechanical sensors, such as: metallic, thin-film and semiconductor strain gauges, diffused silicon pressure sensors, silicon accelerometers, solid-state displacement transducers, piezo junction devices, piezoelectric field-effect transducers (PiFETs), tunnel-diode strain sensors, surface acoustic wave devices, silicon micromechanical switches, solid-state flow meters and electronic flow controllers.\r\n\r\n• Thermal sensors, such as: platinum resistors, thermistors, diode temperature sensors, silicon transistor thermometers, integrated temperature transducers, PTAT circuits, thermocouples, thermopiles, pyroelectric thermometers, quartz thermometers, power transistors and thick-film thermal print heads.\r\n\r\n• Magnetic sensors, such as: magnetoresistors, Corbino disks, magnetodiodes, Hall-effect devices, integrated Hall devices, silicon depletion-layer magnetometers, magneto-injection transistors, magnistors, lateral magnetotransistors, carrier-domain magnetometers, MOS magnetic-field sensors, solid-state read and write heads.\r\n\r\n• Micromechanics, such as: research papers on actuators, structures, integrated sensors-actuators, microsystems, and other devices or subdevices ranging in size from millimetres to sub-microns; micromechatronics; microelectromechanical systems; microoptomechanical systems; microchemomechanical systems; microrobots; silicon and non-silicon fabrication techniques; basic studies of physical phenomena of interest to micromechanics; analysis of microsystems; exploration of new topics and materials related to micromechanics; microsystem-related problems like power supplies and signal transmission, microsystem-related simulation tools; other topics of interest to micromechanics.\r\n\r\n• Interface electronics: electronic circuits which are designed to interface directly with the above transducers and which are used for improving or complementing the characteristics of these devices, such as linearization, A/D conversion, temperature compensation, light-intensity compensation, current/frequency conversion and microcomputer interfacing.\r\n\r\n• Sensor Systems and Applications, such as: sensor buses, multiple-sensor systems, sensor networks, voting systems, telemetering, sensor arrays, and automotive, environmental, monitoring and control, consumer, medical, alarm and security, robotic, nautical, aeronautical and space measurement systems.",
+    "custom_methodology": "",
+    "keywords": [
+      "Physical Transducers",
+      "Solid-State Devices",
+      "Sensors",
+      "Actuators",
+      "Micromechanics",
+      "Optoelectronic Sensors",
+      "Mechanical Sensors",
+      "Thermal Sensors",
+      "Magnetic Sensors",
+      "Interface Electronics",
+      "Sensor Systems",
+      "Measurement Theory",
+      "Materials Processing"
+    ],
+    "audience": "물리적 신호를 변환하는 고체 상태 장치(센서 및 액추에이터)의 연구 개발에 종사하는 과학자, 엔지니어 및 연구원. 재료 과학자, 전자 공학자, 물리학자, 기계 공학자 및 시스템 통합 전문가를 포함합니다.",
+    "style": "엄격하고 과학적이며, 명확하고 간결한 언어를 사용하며, 실험 결과와 이론적 분석을 뒷받침하는 정량적 데이터를 강조합니다. 새로운 기술의 물리적 원리, 재료 특성, 장치 설계, 성능 평가 및 실제 응용에 대한 깊이 있는 논의를 선호합니다.",
+    "prompts": {
+      "paraphrase": "S&A:A 저널의 학술적이고 엄격한 스타일에 맞게 입력된 영문 문단({text})을 재작성하세요. 다음 5가지 스타일 옵션을 고려하여 재작성하세요: 1. 'Fundamentals and Physics' 스타일: 물리적 원리, 측정 이론, 모델링 기법을 명확히 설명. 2. 'Materials and their Processing' 스타일: 재료의 특성, 합성 및 가공 방법을 상세히 기술. 3. 'Device-specific' 스타일 (Optoelectronic, Mechanical, Thermal, Magnetic): 특정 센서/액추에이터 유형의 설계, 작동 원리 및 성능을 강조. 4. 'Micromechanics' 스타일: 미세 구조, 제작 기술 및 관련 물리 현상에 초점. 5. 'Interface Electronics' 또는 'Sensor Systems and Applications' 스타일: 시스템 통합, 성능 향상 회로 또는 실제 응용 사례를 중심으로 기술. 재작성된 내용은 S&A:A의 Aims & Scope에 부합해야 하며, 원문의 핵심 의미를 유지해야 합니다.\n[출력 형식]\n반드시 다음 JSON 형식으로 출력하세요: {\"section\": \"...\", \"styles\": [{\"name\": \"...\", \"text\": \"...\", \"translation\": \"한국어 번역본\"}]}",
+      "claim_check": "S&A:A 저널의 엄격한 과학적 검증 기준에 맞춰 입력된 문단({text})의 핵심 주장({claim})이 과도하거나 실험적 증거가 부족한지 평가하세요. 주장이 저널의 범위 내에서 실현 가능하고, 충분히 뒷받침되는지, 그리고 'Speculative Claims'에 해당하는지 여부를 중점적으로 분석하세요. 분석 결과는 반드시 한국어로 작성하고, 핵심 주장은 영어로 명시하세요.\n[출력 형식]\n반드시 다음 JSON 형식으로 출력하세요: {\"section\": \"...\", \"claim\": \"핵심 주장 1문장 (영어)\", \"score\": 0-10, \"issues\": [\"문제점1 (한국어)\", \"문제점2\"], \"suggestions\": [\"수정 제안1 (한국어)\", \"수정 제안2\"]}",
+      "journal_fit": "입력된 문단({text})이 S&A:A 저널의 Aims & Scope에 얼마나 부합하는지 10점 만점으로 평가하세요. 특히, 저널이 다루는 물리적 변환기, 고체 상태 장치, 재료, 미세 역학, 센서 시스템 및 관련 응용 분야와의 연관성을 중심으로 분석하세요. 분석 결과는 한국어로 작성하고, 저널에 더 적합하도록 수정된 버전(한국어 및 영어)을 제공하세요.\n[출력 형식]\n반드시 다음 JSON 형식으로 출력하세요: {\"section\": \"...\", \"score\": 0, \"matches\": [\"구체적 일치점1 (한국어)\"], \"gaps\": [\"부족한 점1 (한국어)\"], \"revised\": \"저널 맞춤 수정본 (한국어)\", \"revised_en\": \"Revised paragraph (English)\"}",
+      "expansion": "S&A:A 저널의 연구 개발 초점을 고려하여, 입력된 문단({text})과 핵심 주장({claim})을 기반으로 3-5가지 'Next Level' 연구 방향을 제안하세요. 각 방향은 저널의 관심 분야(물리적 효과, 재료, 장치 설계, 미세 역학, 인터페이스 전자 또는 센서 시스템)와 연결되어야 하며, 새로운 물리적 통찰력, 향상된 성능 또는 혁신적인 응용 가능성을 제시해야 합니다. 분석 결과는 한국어로 작성하고, 새로운 핵심 주장은 영어로 명시하세요.\n[출력 형식]\n반드시 다음 JSON 형식으로 출력하세요: {\"section\": \"...\", \"directions\": [{\"type\": \"...\", \"claim\": \"New Claim (English)\", \"pro\": \"장점 (한국어)\", \"con\": \"단점 (한국어)\", \"reason\": \"이유 (한국어)\", \"experiments\": [\"실험1 (한국어)\", \"실험2\"]}]}",
+      "reviewer": "S&A:A 저널의 엄격한 리뷰어 관점에서 입력된 문단({text})에 대해, 물리적 변환기의 원리, 재료 과학, 장치 성능 및 응용 가능성에 초점을 맞춘 비판적인 질문 3-5개와 긍정적인 피드백 1개를 생성하세요. 질문의 심각도(critical, major, minor)와 이유를 명시하고, 모든 분석 결과는 한국어로 작성하세요.\n[출력 형식]\n반드시 다음 JSON 형식으로 출력하세요: {\"section\": \"...\", \"positive_feedback\": \"긍정적 피드백 (한국어)\", \"questions\": [{\"q\": \"질문 (한국어)\", \"severity\": \"critical|major|minor\", \"reason\": \"이유 (한국어)\"}]}"
+    },
+    "criteria": [
+      "물리적 변환 원리의 명확성 및 독창성",
+      "재료 선택 및 가공의 적절성 및 성능 기여도",
+      "장치 설계의 혁신성 및 실현 가능성",
+      "실험 결과의 재현성 및 통계적 유의성",
+      "이론적 모델링의 정확성 및 실험과의 일치성",
+      "미세 역학, 인터페이스 전자, 센서 시스템과의 연관성",
+      "실제 응용 가능성 및 잠재적 영향력",
+      "과도하거나 검증되지 않은 주장(Speculative Claims) 배제"
+    ]
+  }
+]
