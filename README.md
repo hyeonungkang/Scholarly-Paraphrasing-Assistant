@@ -2,6 +2,10 @@
 
 논문 문단을 AI로 분석하고 개선 제안을 제공하는 데스크톱 애플리케이션입니다. Google Gemini API를 활용하여 학술 논문의 품질을 향상시킵니다.
 
+## 🎥 데모 영상
+
+[프로젝트 데모 보기](https://github.com/hyeonungkang/Scholarly-Paraphrasing-Assistant/blob/main/project_demo.mp4)
+
 ## ✨ 주요 기능
 
 - **🔄 패러프레이징**: 다양한 스타일로 문단을 재작성하여 더 나은 표현 제안
@@ -182,4 +186,4 @@ paragraph-reviewer/
 
 ---
 
-**Made with ❤️ for academic researchers**
+**🤣 논문 쓰기 너무 힘들어서 잠깐 딴짓하다가 심심해서 만든 앱입니다. 연구자 여러분 파이팅! 🦾📚**
